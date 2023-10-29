@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aolguner/Projects/ResultPattern/ExceptionHandlingResultPattern/ExceptionHandlingResultPattern.csproj": {}
+  },
+  "projects": {
+    "/Users/aolguner/Projects/ResultPattern/ExceptionHandlingResultPattern/ExceptionHandlingResultPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aolguner/Projects/ResultPattern/ExceptionHandlingResultPattern/ExceptionHandlingResultPattern.csproj",
+        "projectName": "ExceptionHandlingResultPattern",
+        "projectPath": "/Users/aolguner/Projects/ResultPattern/ExceptionHandlingResultPattern/ExceptionHandlingResultPattern.csproj",
+        "packagesPath": "/Users/aolguner/.nuget/packages/",
+        "outputPath": "/Users/aolguner/Projects/ResultPattern/ExceptionHandlingResultPattern/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aolguner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/aolguner/Desktop/nugetPackages/": {},
+          "http://nuget.hepsiburada.com/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.hepsiburada.com/api/v4/projects/2365/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-rc.1.23419.4, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
